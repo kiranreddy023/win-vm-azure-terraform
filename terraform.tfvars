@@ -1,0 +1,13 @@
+resource_group_name = "tfresgrp"
+region_name         = "centralus"
+vm_name             = "tfkiran"
+username            = "kiran"
+network_name        = "kiranv-vnet"
+addrspace           = ["123.123.0.0/20"]
+subnet_name         = "sub-pub"
+sub_addrspace       = ["123.123.0.0/25"]
+nic_name            = "kiran-nic-1"
+vm_size             = "Standard_B2als_v2"
+admin_user_name     = "kiran"
+pub_ip_name         = "kiran-pubip"
+password            = "Kiran023@023@"
